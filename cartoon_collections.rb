@@ -20,6 +20,11 @@ end
 
 def long_planeteer_calls(array)# code an argument here
   # Your code here
+  short_words = []
+  if long_planeteer_calls.length > 4
+    short_words << long_planeteer_calls
+  end
+  short_words
 end
 
 def find_the_cheese# code an argument here
