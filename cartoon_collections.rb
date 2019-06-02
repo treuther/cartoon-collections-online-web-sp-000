@@ -14,6 +14,7 @@ def summon_captain_planet(planeteer_calls)# code an argument here
   planeteer_calls.collect do |calls|
     puts "#{calls.capitalize}!"
   end
+  planeteer_calls
   # planeteer_calls.map! {|calls| calls.capitalize puts calls + "!"}
 end
 
