@@ -5,6 +5,7 @@ def roll_call_dwarves(dwarves)# code an argument here
     index + 1
     puts "#{index} #{item}"
   end
+  new_dwarves
 end
 
 
